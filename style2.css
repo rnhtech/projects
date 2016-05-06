@@ -1,0 +1,119 @@
+#navigation  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple ;
+    top: 0;
+    text-align: center;
+
+}
+
+#navigation li a{
+    display: inline-block;
+    color: yellow;
+    padding:14px 16px;
+    text-decoration: none;  
+
+}
+#navigation li{
+
+    float: left;
+}
+
+#navigation li a:hover{
+    background-color: yellow;
+    color: purple;
+}
+
+.active{
+    background-color: green;
+    color: purple;
+}
+
+footer{
+    background-color:rgb(102, 0, 102);
+    color:white;
+    text-align:center;
+    clear:both;
+    padding:5px;
+    font-size:25px;
+    bottom: 0;
+}
+
+ul{
+    font-size: 20px; 
+    list-style-type: none;
+}
+
+.desc{
+    font-size: 25px;
+    text-align: center;
+   font-family: 'Vollkorn', serif;
+}
+
+body{
+    background: rgb(204, 255, 102);
+}
+section{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 4px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cover-image{
+    width: 500px;
+   height:750px;
+}
+img{
+    width: 300px;
+}
+
+.read{
+    font-size:20px;
+}
+.book-desc {  
+    position: relative;
+    margin-left: 200px;
+                                                                                                                                
+}
+.well{
+    background-color: rgb(255, 255, 0);
+}
+.subtitle{
+    font-family:'Fjalla One', sans-serif;
+    font-size: 50px;
+}
+.img-thumbnail{
+    border-color: rgb(102, 0, 102);
+}
+.welcome{
+     font-family:'Lobster',sans-serif;
+    font-size: 55px;
+}
+.inspiration{
+  width: 500px;
+}
+iframe{
+  width: 600px !important; 
+}
+
+.btn{
+  padding: 14px;
+  color: yellow;
+  background-color: purple;
+  font-family:'Lobster',sans-serif;
+  margin-bottom: 10px;
+  margin-left: -15px;
+}
+.btn:hover{
+   background-color: yellow;
+    color: purple;
+}
