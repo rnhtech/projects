@@ -1,0 +1,80 @@
+/*
+	HEADING
+*/
+header nav{
+	position: fixed;
+	z-index: 2;
+
+}
+header nav p{
+	padding: 5px;
+	font-size: 2em;
+}
+
+.sidenav{
+	margin-top: 65px;
+	height: 100%;
+	position: fixed;
+    width: 200px;
+    border-right: 2px outset #ee6e73;
+}
+
+.sidenav ul li{
+	padding: 8px;
+}
+.sidenav ul li a {
+	color: #ee6e73;
+	font-size: 1.3em;
+}
+
+.sidenav ul li:hover{
+	background-color: #880e4f;
+	color:white !important;
+}
+.collection code{
+	padding-right: 10px;
+	float: right;
+}
+/*
+	CONTENT 
+*/
+.content-container{
+	 margin-top: 70px;
+	 margin-left: 330px;
+     height: 100%;
+     width: auto ;
+     overflow: auto;
+     position: relative;
+     z-index: 1;
+}
+
+.hidden{
+	display: none;
+}
+
+.btn-large {
+	background-color: #ee6e73;
+	color: white;
+	z-index: 0; 
+}
+
+.btn-large:hover{
+	background-color: #880e4f;
+}
+
+
+/*
+.info{
+     width: 1440px;
+     height: 300px;
+     position: relative;
+     background: green;
+}
+*/
+
+/*
+	FOOTER
+*/
+footer{
+	padding: 30px;
+}
