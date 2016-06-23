@@ -1,241 +1,250 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>RNH TECH-KNOWLEDGE - Learn JavaScript</title>
+		<title>RNH TECH-KNOWLEDGE - Learning coding with JavaScript</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="RNH TECH-KNOWLEDGE. Get into programming and learning to code with javaScript.">
 		<!-- Compiled and minified CSS -->
-  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 		<!-- <link href="https://opensource.keycdn.com/angularjs/1.5.3/angular.min.js" rel="stylesheet"> -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<header>
 			<nav class="valign-wrapper pink darken-4">
-				<p class="valign">RNH TECH-KNOWLEDGE </p>
+				<a href="http://rnhtech.github.io" class="valign">RNH TECH-KNOWLEDGE </a>
 			</nav>
 		</header>
-		<div class="row">
-			<div class="col s12 m3 sidenav">
+			<!-- SIDENAV -->
+				<div class="sidenav">
 					<h5> Sections Navigation </h5>
 					<ul>
-						<li class="hoverable"><a href="#fundamentals">Fundamentals</a></li>
-						<li class="hoverable"><a href="#variables-and-types">Variables and Types</a></li>
-						<li class="hoverable"><a href="#operators">Math Operators</a></li>
-						<li class="hoverable"><a href="#arrays">Arrays</a></li>
-						<li class="hoverable"><a href="#conditions">Conditions</a></li>
-						<li class="hoverable"><a href="#">Loops</a></li>
-						<li class="hoverable"><a href="#">Functions</a></li>
+						<li><a href="#fundamentals">Fundamentals</a></li>
+						<li><a href="#variables-and-types">Variables and Types</a></li>
+						<li><a href="#operators">Math Operators</a></li>
+						<li><a href="#arrays">Arrays</a></li>
+						<li><a href="#conditions">Conditions</a></li>
+						<li><a href="#loops">Loops</a></li>
+						<li><a href="#functions">Functions</a></li>
 					</ul>
-			</div>
-		<div class="col s12 m12">
-		<div class="content-container">
-			<main>
-				<h1> Learn JavaScript </h1>
-			</main>
-			<div class="divider"></div>
-			<div id="fundamentals" class="section scrollspy "> 
-				<h4>Fundamentals</h4>
-				<h5> What is JavaScript? </h5>
-				<p><em>JavaScript</em> is the primary programming language of the web . It could be used to add functionality and animation to a website. </p>
-			</div>
-			<!-- VARIABLES SECTION -->
-
-			<div class="divider"></div>
-			<div id="variables-and-types" class="section scrollspy"> 
-				<h4> Variables & Types </h4>
-				<p> A variable is something that holds a value 	that may change. In simple terms, is just an empty box where you can put stuff in. You can use variables to store all kinds of stuff, but in the following exercises we are just going to be storing strings and numbers in variables. 
-
-	            <p><b>In JavasScript we use the keyword <em>var</em> to define a variable.</b></p>
-	            <p>Variables have different types:</p>
-	            <ul class="collection">
-	            	<li class="collection-item"><em>String</em>  <code class="prettyprint">  var myString = "Im a String";  <br> </code> </li>
-	            	<li class="collection-item"><em>Number</em>  <code class="prettyprint"> var myNumber = 6;  </code></li>
-	            	<li class="collection-item"><em>Boolean </em> <code class="prettyprint">  var myBoolean = true; </code></li>
-	            	<li class="collection-item"><em>List</em> <code class="prettyprint"> var myFruitsList = ['apple', 'orange', 'grape'];  </code></li>
-	            	<li class="collection-item"><em>Object</em> <code class="prettyprint"> var myStudentObject = {name: 'James', age: 12};  </code></li>
-	            </ul>
-	        
-	            <p>- In JavaScript, the Number type can be both a decimal number and an integer. </p>
-	            <p>- String text must be inside double quotes " " or single quotes ' '.</p>
-	            <p>- Boolean variables can only be equal to either true or false.</p>
-
-	            <h5> Variables Exercise :</h5>
-	            <p> Define the following variables in the JavaScript Space below.</p>
-	            <ol>
-	                <li>A number called myAge which contains the your Age.</li>
-	                <li>A string called myName which contains your Name.</li>
-	                <li>A boolean called greatStudent which contains the value true.</li>
-	            </ol>
-	            <a class="waves-effect waves-light btn-large" id="variables-exercise-btn"> Click Here To Complete Exercise</a>
-		     	<iframe class="hidden exercise1-frame" width="100%" height="500" src="#" allowfullscreen="allowfullscreen" frameborder="0"></iframe> 
-	         
+				</div>
 			</div>
 
-			<!-- OPERATORS SECTION -->
+				<div class="content-container">
+					<main>
+						<div class="main-heading">
+							<h1> Learning To Code With JavaScript </h1>
+						</div>
+					</main>
+					<div class="content">
+						<div class="divider"></div>
+						<div id="fundamentals" class="section scrollspy ">
+							<h4>Fundamentals</h4>
+							<h5> What is JavaScript? </h5>
+							<p><em>JavaScript</em> is the primary programming language of the web . It could be used to add functionality and animation to a website. </p>
+						</div>
 
-			<div class="divider"></div>
-			<div id="conditions" class="section scrollspy "> 
-				<h4> Math Operators</h4>
-				<p>In JavaScript we can execute regular math operations. Such as:</p>
-		          <h5>Addition operator</h5>
-		          <p>
-		            The + (addition) operator is used both addition and concatenation(combining texts together) of strings.
-		          </p>
-		          <p>
-		            For Example, Adding numbers:
-		          </p>
-		          <code class="prettyprint">
-		          	var a = 1;<br>
-		            var b = 2;<br>
-		            var c = a + b;     // c is now equal to 3
-		          </code>
-		          <p>The addition operator is used for concatenating strings to strings, strings to numbers, and numbers to strings:</p>
-		          <code class="prettyprint">
-		          var name = "Michael"; <br>
-		          console.log("Hello " + name + "!"); <br>
-		          console.log("My grade is " + 95); <br>
-		          console.log(95 + " is my grade");
-		          </code>
-		          <h5>Other Arithmetic Operators</h5>
-		          <p>
-		            To subtract use the minus (-), multiply use asterisk (*), and divide use slash (/) signs.
-		          </p>
-		          <code class="prettyprint">
-					console.log(3 - 5);     // outputs -2 <br>
-					console.log(3 * 5);     // outputs 15 <br>
-					console.log(3 / 5);     // outputs 0.6
-		           </code>
+						<!-- VARIABLES SECTION -->
 
+						<div class="divider"></div>
+						<div id="variables-and-types" class="section scrollspy">
+							<h4> Variables & Types </h4>
+							<p> A variable is something that holds a value 	that may change. In simple terms, is just an empty box where you can put stuff in. You can use variables to store all kinds of stuff, but in the following exercises we are just going to be storing strings and numbers in variables.
+				            <p><b>In JavasScript we use the keyword <em>var</em> to define a variable.</b></p>
+				            <p>Variables have different types:</p>
+				            <ul class="collection">
+				            	<li class="collection-item"><em>String</em>  <code class="prettyprint">  var myString = "Im a String";  <br> </code> </li>
+				            	<li class="collection-item"><em>Number</em>  <code class="prettyprint"> var myNumber = 6;  </code></li>
+				            	<li class="collection-item"><em>Boolean </em> <code class="prettyprint">  var myBoolean = true; </code></li>
+				            	<li class="collection-item"><em>List</em> <code class="prettyprint"> var myFruitsList = ['apple', 'orange', 'grape'];  </code></li>
+				            	<li class="collection-item"><em>Object</em> <code class="prettyprint"> var myStudentObject = {name: 'James', age: 12};  </code></li>
+				            </ul>
 
-		        <h5>Operators Exercise:</h5>
-		        <p>
-		          In this exercise, create the following:
-		        </p>
-		        <ol>
-		          <li>
-		            Create 2 variables studentFirstName,studentLastName with your information. And then create a variable studentFullName which will contain the values of first and last name, but with a space (" ") in between.
-		          </li>
-		          <li>
-		            Create the variable studentGrade with value of 85 and substract 20 and multiply by 2 and put the result in variabe finalGrade.
-		          </li>
-		        </ol>
-		       	<a class="waves-effect waves-light btn-large" id="operators-exe-btn"> Click Here To Complete Exercise</a>
-		     	<iframe class="hidden operators-iframe" width="100%" height="500" src="https://jsfiddle.net/rnhtech/fnkdz4hp/" allowfullscreen="allowfullscreen" frameborder="0"></iframe> 
-			</div>
+				            <p>- In JavaScript, the Number type can be both a decimal number and an integer. </p>
+				            <p>- String text must be inside double quotes " " or single quotes ' '.</p>
+				            <p>- Boolean variables can only be equal to either true or false.</p>
 
-			<!-- ARRAYS SECTION -->
-				<div id="arrays" class="section scrollspy"> 
-				<h4> Arrays</h4>
-				<p>Arrays are used to store multiple values in a single variable. To define an Array in JavaScript we use the brackets notations <var> [ ] </var>.</p>
+				            <h5> Variables Exercise :</h5>
+				            <p> Define the following variables in the JavaScript Space below.</p>
+				            <ol>
+				                <li>A number called myAge which contains the your Age.</li>
+				                <li>A string called myName which contains your Name.</li>
+				                <li>A boolean called greatStudent which contains the value true.</li>
+				            </ol>
+				            <a class="waves-effect waves-light btn-large" id="variables-exe-btn"> Click Here To Complete Exercise</a>
+					     	<iframe id="variables-iframe" class="fiddle-iframe" src="https://jsfiddle.net/rnhtech/fnkdz4hp/" ></iframe>
 
-				<p>For Example:</p>
-				<code class="prettyprint">
-				//Here we are declaring an Array <br>
-				var myFavoriteColors = ["purple", "green", "red"]; //this  array contains string values <br>
+						</div>
 
-				var myFavoriteNumbers = [12,6,2,7,5]; //this array contains number values
+						<!-- OPERATORS SECTION -->
 
-				</code>
-				<p> We can use array literal [ ] to access an specific value in our array. Arrays indexes start from 0, for instance: </p>
-				<code class="prettyprint">
-				//Let's assign the first value of the array myFavoriteNumbers to the variable firstValue <br>
-				var firstValue = myFavoriteNumbers[0]; // firstValue now contains the number 12; <br>
+						<div class="divider"></div>
+						<div id="operators" class="section scrollspy ">
+							<h4> Math Operators</h4>
+							<p>In JavaScript we can execute regular math operations. Such as:</p>
+					          <h5>Addition operator</h5>
+					          <p>
+					            The + (addition) operator is used both addition and concatenation(combining texts together) of strings.
+					          </p>
+					          <p>
+					            For Example, Adding numbers:
+					          </p>
+					          <code class="prettyprint">
+					          	var a = 1;<br>
+					            var b = 2;<br>
+					            var c = a + b;     // c is now equal to 3
+					          </code>
+					          <p>The addition operator is used for concatenating strings to strings, strings to numbers, and numbers to strings:</p>
+					          <code class="prettyprint">
+					          var name = "Michael"; <br>
+					          console.log("Hello " + name + "!"); <br>
+					          console.log("My grade is " + 95); <br>
+					          console.log(95 + " is my grade");
+					          </code>
+					          <h5>Other Arithmetic Operators</h5>
+					          <p>
+					            To subtract use the minus (-), multiply use asterisk (*), and divide use slash (/) signs.
+					          </p>
+					          <code class="prettyprint">
+								console.log(3 - 5);     // outputs -2 <br>
+								console.log(3 * 5);     // outputs 15 <br>
+								console.log(3 / 5);     // outputs 0.6
+					           </code>
 
-				</code>
+					        <h5>Operators Exercise:</h5>
+					        <p>
+					          In this exercise, create the following:
+					        </p>
+					        <ol>
+					          <li>
+					            Create 2 variables studentFirstName,studentLastName with your information. And then create a variable studentFullName which will contain the values of first and last name, but with a space (" ") in between.
+					          </li>
+					          <li>
+					            Create the variable studentGrade with value of 85 and substract 20 and multiply by 2 and put the result in variabe finalGrade.
+					          </li>
+					        </ol>
+					       	<a class="waves-effect waves-light btn-large" id="variables-exe-btn"> Click Here To Complete Exercise
+					       	</a>
+					     	<iframe class="operators-iframe fiddle-iframe" src="#"></iframe>
+						</div>
 
-				<h5> Array Exercise </h5>
-				<p>You must define an array with the following three variables:</p>
-				<ol>
-				    <li>A string which has the value of "Michael"</li>
-				    <li>A number which has a value of 42</li>
-				    <li>A boolean which has a value of true</li>
-				</ol>
-				
-				<a class="waves-effect waves-light btn-large" id="variables-exercise-btn"> Click Here To Complete Exercise</a>
-		     	<iframe class="hidden exercise1-frame" width="100%" height="500" src="#" allowfullscreen="allowfullscreen" frameborder="0"></iframe> 
+						<!-- ARRAYS SECTION -->
+						<div id="arrays" class="section scrollspy">
+							<h4> Arrays</h4>
+							<p>Arrays are used to store multiple values in a single variable. To define an Array in JavaScript we use the brackets notations <var> [ ] </var>.</p>
 
-			</div>
+							<p>For Example:</p>
+							<code class="prettyprint">
+								//Here we are declaring an Array <br>
+								var myFavoriteColors = ["purple", "green", "red"]; //this  array contains string values <br>
 
-			<!-- CONDITIONS SECTION -->
+								var myFavoriteNumbers = [12,6,2,7,5]; //this array contains number values
+							</code>
+							<p> We can use array literal [ ] to access an specific value in our array. Arrays indexes start from 0, for instance: </p>
+							<code class="prettyprint">
+								//Let's assign the first value of the array myFavoriteNumbers to the variable firstValue <br>
+								var firstValue = myFavoriteNumbers[0]; // firstValue now contains the number 12; <br>
+							</code>
+							<h5> Array Exercise </h5>
+							<p>You must define an array with the following three variables:</p>
+							<ol>
+							    <li>A string which has the value of "Michael"</li>
+							    <li>A number which has a value of 42</li>
+							    <li>A boolean which has a value of true</li>
+							</ol>
 
-			<div class="divider"></div>
-			<div id="conditions" class="section scrollspy"> 
-			<h4> Conditions</h4>
-			<p>Conditions allow us to check if a statement is valid, and execute different code according to the result.</p>
-			
-			 <h5>The <var>if</var> statement</h5>
-			 <p>The if statement checks is a condition is <var>true</var> or <var>false</var>.</p>
-			 <p>For Example: if we want know whether a number is hihger than other. We can write a condition to check.</p>
-		     <code class="prettyprint">
-				var num1 = 5; <br>
-				var num2 = 12; <br>
+							<p> Arrays can contain different types of values </p>
+							<a class="waves-effect waves-light btn-large" id="variables-exercise-btn"> Click Here To Complete Exercise</a>
+					     	<iframe class="hidden exercise1-frame" width="100%" height="500" src="#" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-				if( num1 > num 12 ) { <br>
-				    //If the condition is true, then the message is display <br>
-				    console.log("Num1 is higher than Num2");	<br>
-				} else {	<br>
-				    //this is only executed is the if condition is false <br>
-				    console.log("Num2 is higher"); <br>
-				} <br>
-			</code>
-			           
-			     
-			<h5>Logical Operators</h5>
-			<p>
-			 	Two or more expressions can be evaluated together using logical operators to check if two expressions evaluate to true together, or at least one of them. To check if two expressions both evaluate to true, use the AND operator &&. To check if at least
-			    one of the expressions evaluate to true, use the OR operator ||.
-			</p>
-			<p>For Example:</p>
-			<code class="prettyprint" >
-			var foo = 1; <br>
-			var bar = 2; <br>
-			var moo = 3; <br>
+						</div>
 
-			if (foo < bar && moo > bar) <br>
-			{	<br>
-			    console.log("foo is smaller than bar AND moo is larger than bar."); <br>
-			} <br>
+						<!-- CONDITIONS SECTION -->
 
-			if (foo < bar || moo > bar) <br>
-			{	<br>
-			    console.log("foo is smaller than bar OR moo is larger than bar."); <br>
-			}                      <br>       
-			</code>
-			
-			<h5>Conditions Exercise:</h5>
-			<p>
-			  - In this exercise, you must construct an if inside the checkGrade function statement that checks if the number myGrade is higher or equal to 75. If that is the case, the function must print out using console.log the word passed. If myGrade is lower than
-			        75, the function must print out using console.log the word failed.
-			</p>
-			<a class="waves-effect waves-light btn-large" id="variables-exercise-btn"> Click Here To Complete Exercise</a>
-		     	<iframe class="hidden exercise1-frame" width="100%" height="500" src="#" allowfullscreen="allowfullscreen" frameborder="0"></iframe> 
-			</div>
+						<div class="divider"></div>
+						<div id="conditions" class="section scrollspy">
+						<h4> Conditions</h4>
+						<p>Conditions allow us to check if a statement is valid, and execute different code according to the result.</p>
 
-			<div class="divider"></div>
-			<div class="section scrollspy"> 
-				<h4> Loops</h4>
-				<p>Section content </p>
-			</div>
-			<div class="section scrollspy"> 
-				<h4> Functions</h4>
-				<p>Section content </p>
-			</div>
+						 <h5>The <var>if</var> statement</h5>
+						 <p>The if statement checks is a condition is <var>true</var> or <var>false</var>.</p>
+						 <p>For Example: if we want know whether a number is hihger than other. We can write a condition to check.</p>
+					     <code class="prettyprint">
+							var num1 = 5; <br>
+							var num2 = 12; <br>
 
-			<footer class="page-footer pink darken-4">
-			<div class="footer-copyright center-align">
-				 &copy 2016 | RNH TECH All Rights Reserved 
-			</div>
-		</footer>
+							if( num1 > num 12 ) { <br>
+							    //If the condition is true, then the message is display <br>
+							    console.log("Num1 is higher than Num2");	<br>
+							} else {	<br>
+							    //this is only executed is the if condition is false <br>
+							    console.log("Num2 is higher"); <br>
+							} <br>
+						</code>
 
+						<!-- LOGICAL OPERATORS -->
 
-		</div> <!-- End content container -->
-		
-		
-		</div> <!-- right contentainer -->
-		</div> <!-- end row -->
-		
-		<!-- jQuery library -->
+						<h5>Logical Operators</h5>
+						<p>
+						 	Two or more expressions can be evaluated together using logical operators to check if two expressions evaluate to true together, or at least one of them. To check if two expressions both evaluate to true, use the AND operator &&. To check if at least
+						    one of the expressions evaluate to true, use the OR operator ||.
+						</p>
+						<p>For Example:</p>
+						<code class="prettyprint" >
+						var foo = 1; <br>
+						var bar = 2; <br>
+						var moo = 3; <br>
+
+						if (foo < bar && moo > bar) <br>
+						{	<br>
+						    console.log("foo is smaller than bar AND moo is larger than bar."); <br>
+						} <br>
+
+						if (foo < bar || moo > bar) <br>
+						{	<br>
+						    console.log("foo is smaller than bar OR moo is larger than bar."); <br>
+						}                      <br>
+						</code>
+
+						<h5>Conditions Exercise:</h5>
+						<p>
+						  - In this exercise, you must construct an if inside the checkGrade function statement that checks if the number myGrade is higher or equal to 75. If that is the case, the function must print out using console.log the word passed. If myGrade is lower than
+						        75, the function must print out using console.log the word failed.
+						</p>
+						<a class="waves-effect waves-light btn-large" id="variables-exercise-btn"> Click Here To Complete Exercise</a>
+					     	<iframe class="hidden exercise1-frame" width="100%" height="500" src="#" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+						</div>
+
+						<!-- LOOPS SECTION -->
+
+						<div class="divider"></div>
+						<div id="loops" class="section scrollspy">
+							<h4> Loops</h4>
+							<p>Section content </p>
+						</div>
+
+						<!-- FUNCTIONS SECTION -->
+
+						<div class="section scrollspy">
+							<div id="functions">
+								<h4> Functions</h4>
+								<p>Section content </p>
+							</div>
+						</div>
+
+					</div> <!-- end content -->
+
+						<!-- FOOTER -->
+						<footer class="">
+							<div class="center-align">
+								 &copy 2016 | RNH TECH All Rights Reserved
+							</div>
+						</footer>
+
+				</div> <!-- end container -->
+
+		<!-- JS LIBRARIES -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 		<script type="text/javascript" src="app.js"></script>
